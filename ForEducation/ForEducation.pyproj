@@ -21,7 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Converters\DecimalToAnyBase.py" />
+    <Compile Include="Converters\DecimalToBinary.py" />
+    <Compile Include="Converters\DecimalToHexadecimal.py" />
+    <Compile Include="Converters\DecimalToOctal.py" />
     <Compile Include="ForEducation.py" />
+    <Compile Include="PrimeChecker.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Converters\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
