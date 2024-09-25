@@ -21,6 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Converters\BinaryToDecimal.py" />
+    <Compile Include="Converters\binaryToOctal.py" />
     <Compile Include="Converters\DecimalToAnyBase.py" />
     <Compile Include="Converters\DecimalToBinary.py" />
     <Compile Include="Converters\DecimalToHexadecimal.py" />
